@@ -17,9 +17,9 @@ All Ruby!
 
 ---
 
-![How to Build Command Line Applications with Ruby](https://www.rubyguides.com/2018/12/ruby-argv/)
+[How to Build Command Line Applications with Ruby](https://www.rubyguides.com/2018/12/ruby-argv/)
 
-![Sinatra Documentation](http://sinatrarb.com/documentation.html)
+[Sinatra Documentation](http://sinatrarb.com/documentation.html)
 
 
 ## Setup
