@@ -70,16 +70,27 @@ end
 
 user_command = ARGV
 
-if user_command[0] == "new"
-    @app_name = user_command[1]
-    create_app_file
-    create_readme
-    create_gemfile
-    create_welcome_file
-    create_config_file
-    create_views_directory
-    create_public_directory
-    create_sinatra_app
-else
-    p "Please try sinatra new [app_name]" 
+case user_command[0]
+    when "new"
+        if user_command[1] == nil
+            p "Please try sinatra new [app_name]"
+        else 
+        @app_name = user_command[1]
+        create_app_file
+        create_readme
+        create_gemfile
+        create_welcome_file
+        create_config_file
+        create_views_directory
+        create_public_directory
+        create_sinatra_app
+        end
+    when "-v"
+        p "Sinatra-AppMaker 1.0.0"
+    when "-help"
+        p "sinatra new APP_NAME  # Creates a new sinatra app"
+    # when nil
+    #     p "See sinatra -help for options"
+    else 
+        p "See sinatra -help for options"
 end
