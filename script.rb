@@ -68,9 +68,12 @@ def create_sinatra_app
     
 end
 
-user_command = ARGV
+user_command = ARGV 
 
-case user_command[0]
+if user_command.length > 2
+    p "See sinatra -help for options"
+else 
+    case user_command[0]
     when "new"
         if user_command[1] == nil
             p "Please try sinatra new [app_name]"
@@ -89,8 +92,7 @@ case user_command[0]
         p "Sinatra-AppMaker 1.0.0"
     when "-help"
         p "sinatra new APP_NAME  # Creates a new sinatra app"
-    # when nil
-    #     p "See sinatra -help for options"
     else 
         p "See sinatra -help for options"
+    end
 end
