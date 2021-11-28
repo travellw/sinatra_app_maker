@@ -68,12 +68,18 @@ def create_sinatra_app
     
 end
 
-create_app_name
-create_app_file
-create_readme
-create_gemfile
-create_welcome_file
-create_config_file
-create_views_directory
-create_public_directory
-create_sinatra_app
+user_command = ARGV
+
+if user_command[0] == "new"
+    @app_name = user_command[1]
+    create_app_file
+    create_readme
+    create_gemfile
+    create_welcome_file
+    create_config_file
+    create_views_directory
+    create_public_directory
+    create_sinatra_app
+else
+    p "Please try sinatra new [app_name]" 
+end
