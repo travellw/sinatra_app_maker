@@ -27,7 +27,7 @@ All Ruby!
 
 1. Clone the repo on to your local machine
 2. `cd` into the project directory
-3. Run `ruby app.rb` 
+3. Run `ruby script.rb` 
 4. Declare the name of the app by responding to the prompt - 'What is the Apps' name'?
 5. Once the creation prompt completes, `cd` into the project directory resembling the name you shared in step 4. 
 6. Run `ruby app.rb`
