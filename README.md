@@ -52,7 +52,7 @@ The quickstart instructions uses a temporary alias for executing commands. This 
 
 ## Feedback? Questions?...Opinions?
 
-Feel free to reach out directly or even open up an issue. I'll definitely listen intenly and respond timely. 
+Feel free to reach out directly or even open up an issue. I'll definitely listen intently and respond timely. 
 
 ## Reference Documentation 
 
