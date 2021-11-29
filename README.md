@@ -50,7 +50,7 @@ All Ruby!
 
 The quickstart instructions uses a temporary alias for executing commands. This means that the `sinatra` command created is not accessible beyond the project directory. This is because the alias relies on the script.rb file which is only located in the sinatra_app_maker directory. If you are interested in using this application permanently and globally check out this [stack exchange issue](https://unix.stackexchange.com/questions/155718/how-to-create-permanent-alias-from-script) that immediately gets to the business of doing just that.
 
-## Feedback? Questions?...Advice?
+## Feedback? Questions?...Opinions?
 
 Feel free to reach out directly or even open up an issue. I'll definitely listen intenly and respond timely. 
 
