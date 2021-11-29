@@ -26,7 +26,7 @@ end
 
 #create the Welcome.erb file
 def create_welcome_file
-    File.open("welcome.erb", "w") { |f| f.write "welcome to sinatra" }
+    File.open("welcome.erb", "w") { |f| f.write '<title> Welcome to Sinatra </title> <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2015_50/889371/frank-sinatra-today-tease-1-151207.jpg" alt="Welcome to Sinatra" width="100%" height="auto">' }
     puts 'CREATED: welcome.erb'
 end
 
